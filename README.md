@@ -9,6 +9,7 @@
 - scp the autograder script folder to your ugclinux server as well
 - all the four files should sit under the directory of Submissions 
      Your directories should look as follows:
+     
      -- Submissions
 
      ----- hw1_edge.txt
