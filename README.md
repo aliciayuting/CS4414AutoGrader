@@ -10,16 +10,27 @@
 - all the four files should sit under the directory of Submissions 
      Your directories should look as follows:
      - Submissions
+
      ----- hw1_edge.txt
+
      ----- hw1_norm.txt
+
      ----- hw1grader.py
+
      ----- standard_output.py
+
      ----- netid_1
+
      ---------- 'my screenshot.pdf'
+
      ---------- 'My source file.cpp'
+
      ----- netid_2
+
      ---------- 'my screenshot.pdf'
+
      ---------- 'My source file.cpp'
+
      ....
 
 - run the autograder by calling `python hw1grader.py`
