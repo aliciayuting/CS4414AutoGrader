@@ -41,7 +41,7 @@ def main():
           try:
                print("- Grading: " + netid)
                dir = os.path.join(OUTER_DIR, x)
-               mv_cmd = "mv 'My source file.cpp' hello.cpp"
+               mv_cmd = "cp 'My source file.cpp' hello.cpp"
                ps = subprocess.Popen(mv_cmd,shell=True, stdout=subprocess.PIPE,stderr=subprocess.STDOUT, cwd=dir)
                (output, err) = ps.communicate()  
                p_status = ps.wait()
