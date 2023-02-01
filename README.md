@@ -50,10 +50,10 @@
   - The letter counting is incorrect
   - The 30 blank spaces before letter, and the 10 blank spaces after ':' is incorrect
   - The ordering of A-Z, then A-z is incorrect
-  - There is no single quotation marks between letter
 
 
 Something not take points off, (in these cases, just comment in on the cms to remind them would be good)
+  - There is no single quotation marks between letter
   - if there are extra or less white spaces between 'a' and ':'
   - if there are extra or less white spaces between "Full user name: " and the name
   - if there are extra or less white spaces between "Please type your name: "
