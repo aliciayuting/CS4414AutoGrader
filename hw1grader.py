@@ -22,8 +22,7 @@ def checkoutput(netid, output, expected_list):
                if(not expected_list[i][j] in output_list[i] ):
                     graded_netids.append(netid)
                     unpassed_netids.append(netid)
-                    reason = "output miss match\nExpected:"
-                    reason += expected_list[i]
+                    reason = "output miss match\n"
                     reason += "\nYour output:"
                     reason += output_list[i]
                     unpassed_netids_reasons.append(reason)
