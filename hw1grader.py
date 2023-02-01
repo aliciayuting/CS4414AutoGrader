@@ -24,7 +24,7 @@ def checkoutput(netid, output, expected_list):
                     unpassed_netids.append(netid)
                     reason = "output miss match\n"
                     reason += "\nYour output:"
-                    reason += output_list[i]
+                    reason += str(output.decode())
                     unpassed_netids_reasons.append(reason)
                     grades_file.append([str(netid), "2", reason])
                     return False
