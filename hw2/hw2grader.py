@@ -22,6 +22,7 @@ def checkoutput(netid, output, expected_list):
      for i in range(len(expected_list)):
           for j in range(len(expected_list[i])):
                if(not expected_list[i][j] in output_list[i] ):
+                    print(f"MISMATCH:", {netid}, "entered", {output_list[i]}, "but expected", {expected_list[i][j]}, "so case failed.")
                     graded_netids.append(netid)
                     unpassed_netids.append(netid)
                     reason = "output miss match\n"
@@ -62,7 +63,7 @@ def main():
                ps = subprocess.Popen(cmd,shell=True, stdout=subprocess.PIPE,stderr=subprocess.STDOUT, cwd=dir)
                output = ps.communicate()[0]
                ps.kill() # kill process after completed
-               print(str(netid), ': output[0] -->', output, 'len output ==', str(output))
+               # print(str(netid), ': output[0] -->', output, 'len output ==', str(output))
                check = checkoutput(netid, output, hw2_norm_standard_output)
                if(not check):
                     print(f'skipping edge case because {netid} didn\'t pass normal case')
@@ -71,7 +72,7 @@ def main():
                # 4. check edge case for hw2
                cmd = "./solution_copy < hw2_edge.txt"
                shutil.copy(os.path.join(OUTER_DIR,"hw2_edge.txt"), x)
-               print('checking edge case (press ctrl-c if it gets stuck here to move on to next student)')
+               print('normal case passed! checking edge case (press ctrl-c if it gets stuck here to move on to next student)')
                ps = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT, cwd=dir)
                output = ps.communicate()[0]
                ps.kill() # kill process after completed
@@ -81,6 +82,7 @@ def main():
                
                # award full points to netid if reached till here
                passed_netids.append(netid)
+               print("Edge case passed!")
                grades_file.append([str(netid), "3", "Good work!"])
           except:
                graded_netids.append(netid)
@@ -89,9 +91,9 @@ def main():
                print(f"Grader unable to run on netid: " + netid +". Please check {netid}'s submission manually.")
                time.sleep(1)
                grades_file.append([str(netid), "0", "Grader unable to run"])
-     print("-passed netids:", passed_netids)
-     print("-unpassed netids:",unpassed_netids)
-     print("-unpassed reasons: ",unpassed_netids_reasons)
+     # print("-passed netids:", passed_netids)
+     # print("-unpassed netids:",unpassed_netids)
+     # print("-unpassed reasons: ",unpassed_netids_reasons)
 
 
 

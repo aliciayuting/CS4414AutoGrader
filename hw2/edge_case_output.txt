@@ -1,0 +1,90 @@
+Please type your name: Full user name: Alxcoa Mby Adscot
+          Name 1: 'Alxcoa'
+          Name 2: 'Mby'
+          Name 3: 'Adscot'
+Letter counts (upper case separate from lower case):
+                              'A':          2
+                              'M':          1
+                              'a':          1
+                              'b':          1
+                              'c':          2
+                              'd':          1
+                              'l':          1
+                              'o':          2
+                              's':          1
+                              't':          1
+                              'x':          1
+                              'y':          1
+Letter counts (with everything mapped to lower case):
+                              'a':          3
+                              'b':          1
+                              'c':          2
+                              'd':          1
+                              'l':          1
+                              'm':          1
+                              'o':          2
+                              's':          1
+                              't':          1
+                              'x':          1
+                              'y':          1
+Please type your name: Full user name: SPY WITH MY LITTLE
+          Name 1: 'SPY'
+          Name 2: 'WITH'
+          Name 3: 'MY'
+          Name 4: 'LITTLE'
+Letter counts (upper case separate from lower case):
+                              'E':          1
+                              'H':          1
+                              'I':          2
+                              'L':          2
+                              'M':          1
+                              'P':          1
+                              'S':          1
+                              'T':          3
+                              'W':          1
+                              'Y':          2
+Letter counts (with everything mapped to lower case):
+                              'e':          1
+                              'h':          1
+                              'i':          2
+                              'l':          2
+                              'm':          1
+                              'p':          1
+                              's':          1
+                              't':          3
+                              'w':          1
+                              'y':          2
+Please type your name: Full user name: First Second Third Fourth
+          Name 1: 'First'
+          Name 2: 'Second'
+          Name 3: 'Third'
+          Name 4: 'Fourth'
+Letter counts (upper case separate from lower case):
+                              'F':          2
+                              'S':          1
+                              'T':          1
+                              'c':          1
+                              'd':          2
+                              'e':          1
+                              'h':          2
+                              'i':          2
+                              'n':          1
+                              'o':          2
+                              'r':          3
+                              's':          1
+                              't':          2
+                              'u':          1
+Letter counts (with everything mapped to lower case):
+                              'c':          1
+                              'd':          2
+                              'e':          1
+                              'f':          2
+                              'h':          2
+                              'i':          2
+                              'n':          1
+                              'o':          2
+                              'r':          3
+                              's':          2
+                              't':          3
+                              'u':          1
+Please type your name: 
