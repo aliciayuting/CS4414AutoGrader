@@ -1,0 +1,33 @@
+Please type your name: Full user name: Kenneth Paul Birman
+          Name 1: 'Kenneth'
+          Name 2: 'Paul'
+          Name 3: 'Birman'
+Letter counts (upper case separate from lower case):
+                              'B':          1
+                              'K':          1
+                              'P':          1
+                              'a':          2
+                              'e':          2
+                              'h':          1
+                              'i':          1
+                              'l':          1
+                              'm':          1
+                              'n':          3
+                              'r':          1
+                              't':          1
+                              'u':          1
+Letter counts (with everything mapped to lower case):
+                              'a':          2
+                              'b':          1
+                              'e':          2
+                              'h':          1
+                              'i':          1
+                              'k':          1
+                              'l':          1
+                              'm':          1
+                              'n':          3
+                              'p':          1
+                              'r':          1
+                              't':          1
+                              'u':          1
+Please type your name: 
